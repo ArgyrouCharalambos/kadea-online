@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 120px;
+}
+.Header__Logo{
+    width: 116px;
+    height: 36px;
+}
+.Header__SectionLien{
+    display: flex;
+    gap: 20px;
+}
+.Header__SectionLien a[href='Accueil']{
+    color: red;
+}
+.Header__Lien{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+.Hero{
+    display: flex;
+    padding: 30px 100px;
+}
+.Hero__Texte{
+    
+    
+}
+.Hero__Titre{
+    width: 480px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    font-family: 'Poppins';
+}
+.Hero__Description{
+    width: 370px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: 'Poppins';
+}
+.Hero__Bouton{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    width: 182px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 9px;
+
+
+}
+.Hero__Image{
+    width:564px;
+    height: 376px;
+}
