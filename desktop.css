@@ -68,3 +68,30 @@ body{
     width:564px;
     height: 376px;
 }
+
+.Option{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 100px;
+   
+}
+.Option__Card{
+    width: 322px;
+    height: 210px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Option__Titre{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+.Option__Description{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    width: 215px;
+}
