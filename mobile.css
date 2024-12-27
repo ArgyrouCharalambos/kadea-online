@@ -1,6 +1,86 @@
 
+.Hero{
+    flex-direction: column-reverse;
+}
+.Hero__Image{
+    width: 340px;
+    height: 230px;
+}
+.Hero__Texte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Hero__Titre{
+    text-align: center;
+    font-size: 23px;
+    width: 340px;
+    line-height: 30px;
+}
+.Hero__Description{
+    text-align: center;
+    width: 340px;
+}
+.Hero__Bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Option{
+    flex-direction: column;
+    padding:80px 25px;
+}
+.CodeEditor{
+    flex-direction: column;
+   
+}
+.CodeEditor__Image{
+    width: 95%;
+}
+.CodeEditor__Titre{
+    text-align: center;
+}
+.CodeEditor__Description{
+    text-align: center;
+}
+.CodeEditor__Texte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CodeEditor__Bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CodeEditor__Description{
+    width: 100%;
+    padding: 10px;
 
-
+}
+.Learm__SectionCard {
+    flex-direction: column;
+}
+.Contact{
+    width: 100%;
+}
+.Contact__Description{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    gap: 0;
+}
+.Contact__Input{
+    width: 90%;
+}
+.Contact__Input2{
+    width: 90%;
+}
+.Contact__Lien{
+    position: static;
+}
 /* Parti 2: Nos cours */
 
 .Hero2{
