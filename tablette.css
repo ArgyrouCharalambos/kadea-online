@@ -1,6 +1,54 @@
-
-
-
+.Hero{
+    flex-direction: column-reverse;
+}
+.Hero__Texte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Hero__Titre{
+    text-align: center;
+    width: 600px;
+}
+.Hero__Description{
+    text-align: center;
+    width: 600px;
+}
+.Hero__Bouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Option__Titre{
+    font-size: 17px;
+}
+.Option__Description{
+    width: 150px;
+    font-size: 16px;
+}
+.CodeEditor{
+    flex-direction: column;
+}
+.Learm__SectionCard{
+    flex-direction: column;
+}
+.Learm__Lien{
+    position: static;
+}
+.Contact__Description{
+    width: 100%;
+    padding-left: 30px;
+}
+.Contact__Input{
+    width: 320px;
+}
+.Contact__Input2{
+    width: 700px;
+}
+.Contact__Lien{
+    position: static;
+}
 /* Page 2: Nos cours */
 .Hero2{
     flex-direction: column;
