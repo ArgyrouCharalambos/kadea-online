@@ -36,9 +36,13 @@
 .Learm__Lien{
     position: static;
 }
+.Contact{
+    height: 800px;
+}
 .Contact__Description{
     width: 100%;
     padding-left: 30px;
+    gap: 50px;
 }
 .Contact__Input{
     width: 320px;
