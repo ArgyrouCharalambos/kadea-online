@@ -1,0 +1,42 @@
+
+
+
+/* Parti 2: Nos cours */
+
+.Hero2{
+    flex-direction: column;
+}
+.Hero2__Image{
+    width: 356px;
+    height: 220px;
+}
+.Hero2__Titre{
+    font-size: 28px;
+    text-align: center;
+}
+.Hero2__Description{
+    font-size: 17px;
+    text-align: center;
+    width: 330px;
+}
+
+.Apprentissage__Titre{
+    font-size: 25px;
+    text-align: center;
+    width: 400px;
+}
+.Apprentissage__Description{
+    width: 330px;
+    font-size: 17px;
+}
+.Apprentissage__SectionCard{
+    grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+}
+.Footer{
+    gap: 30px;
+}
+.Footer__Description{
+    font-size: 14px;
+    width: 300px;
+}
