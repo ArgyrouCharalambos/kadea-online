@@ -1,55 +1,65 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
 }
-.Header{
+
+.Header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 120px;
 }
-.Header__Logo{
+
+.Header__Logo {
     width: 116px;
     height: 36px;
 }
-.Header__SectionLien{
+
+.Header__SectionLien {
     display: flex;
     gap: 20px;
 }
-.Header__SectionLien a[href='Accueil']{
+
+.Header__SectionLien a[href='Accueil'] {
     color: red;
 }
-.Header__Lien{
+
+.Header__Lien {
     text-decoration: none;
     color: black;
     font-size: 18px;
     font-weight: 700;
     font-family: "Poppins";
 }
-.Hero{
+
+.Hero {
     display: flex;
     padding: 30px 100px;
     align-items: center;
     justify-content: center;
 }
-.Hero__Titre{
+
+.Hero__Titre {
     width: 480px;
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
     font-family: 'Poppins';
 }
-.Hero__Description{
+
+.Hero__Description {
     width: 370px;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
     font-family: 'Poppins';
 }
-.Hero__Bouton{
+
+.Hero__Bouton {
     text-decoration: none;
     color: white;
     background-color: red;
@@ -62,19 +72,21 @@ body{
 
 
 }
-.Hero__Image{
-    width:564px;
+
+.Hero__Image {
+    width: 564px;
     height: 376px;
 }
 
-.Option{
+.Option {
     display: flex;
     justify-content: center;
     gap: 30px;
     padding: 100px;
     background-color: #FAF3E9;
 }
-.Option__Card{
+
+.Option__Card {
     width: 322px;
     height: 210px;
     border: 1px solid black;
@@ -82,12 +94,14 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.Option__Titre{
+
+.Option__Titre {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
 }
-.Option__Description{
+
+.Option__Description {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
@@ -95,7 +109,7 @@ body{
 }
 
 
-.CodeEditor{
+.CodeEditor {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,25 +117,29 @@ body{
     background-color: black;
     gap: 25px;
 }
-.CodeEditor__Image{
+
+.CodeEditor__Image {
     width: 561px;
     height: 296px;
 }
-.CodeEditor__Titre{
+
+.CodeEditor__Titre {
     color: white;
     font-size: 24px;
     font-weight: 700;
     width: 296px;
     line-height: 36px;
 }
-.CodeEditor__Description{
+
+.CodeEditor__Description {
     font-size: 18px;
     font-weight: 400;
     color: white;
     width: 465px;
     line-height: 27px;
 }
-.CodeEditor__Bouton{
+
+.CodeEditor__Bouton {
     background-color: red;
     color: white;
     text-decoration: none;
@@ -131,4 +149,126 @@ body{
     font-weight: 700;
     font-size: 18px;
     padding: 10px 20px;
+}
+
+
+.Learm {
+    background-color: white;
+    padding: 50px 20px;
+}
+
+.Learm__Titre {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.Learm__Card {
+    background-color: #FAF3E9;
+    padding: 20px 10px;
+    width: 325px;
+    height: 120px;
+    text-align: center;
+}
+
+.Learm__SectionCard {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.Learm__Lien {
+    text-decoration: none;
+    color: red;
+    font-weight: 700;
+    margin-left: 380px;
+}
+
+.Contact {
+    background-color: #FAF3E9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.Contact__Titre {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Contact__Description {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1035px;
+    height: 472px;
+    gap: 77px;
+
+}
+.Contact__Info{
+    font-weight: 700;
+}
+
+.Contact__Input {
+    width: 477px;
+    height: 57px;
+    background-color: #FAF3E9;
+    border-color:rgb(162, 162, 162);
+    border: 1px solid  rgb(162, 162, 162);
+    border-radius: 9px;
+
+}
+
+.Contact__Input2 {
+    width: 1035px;
+    height: 167px;
+    background-color: #FAF3E9;
+    border: 1px solid  rgb(162, 162, 162);
+    border-radius: 9px;
+
+}
+.Contact__Lien{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    width: 278px;
+    height: 54px;
+    text-align: center;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 17px;
+    position: relative;
+    left: 370px;
+}
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px;
+}
+.Footer--Image{
+    width: 116px;
+    height: 36px;
+
+}
+.Footer__Description{
+    width: 380px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.Footer__SectionIcone{
+    display: flex;
+    gap: 20px;
+}
+.Footer__Icone{
+    width: 24px;
+    height: 24px;
+
 }
