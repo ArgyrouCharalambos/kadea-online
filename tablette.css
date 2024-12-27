@@ -1,0 +1,38 @@
+
+
+
+/* Page 2: Nos cours */
+.Hero2{
+    flex-direction: column;
+}
+.Hero2__Titre{
+    text-align: center;
+}
+.Hero2__Description{
+    text-align: center;
+}
+.Apprentissage{
+    gap: 25px;
+}
+.Apprentissage__Card{
+    background-color: #FAF3E9;
+    width: 220px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 9px;
+}
+.Apprentissage__SectionLien{
+   right: 260px;
+}
+.Footer{
+    flex-direction: row;
+    gap: 100px;
+}
+.Footer__Description{
+    font-size: 14px;
+    width: 300px;
+}
