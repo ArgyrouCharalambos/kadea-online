@@ -14,6 +14,10 @@
 .Apprentissage{
     gap: 25px;
 }
+.Apprentissage__SectionCard{
+    grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
 .Apprentissage__Card{
     background-color: #FAF3E9;
     width: 220px;
