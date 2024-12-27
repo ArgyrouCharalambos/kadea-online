@@ -258,8 +258,72 @@ body {
 
 /* Page 2: Nos cours */
 
+.Hero2{
+    padding: 100px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FAF3E9;
+}
+.Hero2__Image{
+    width: 561px;
+    height: 296px;
+}
+.Hero2__Titre{
+    font-size: 36px;
+    font-weight: 700;
+}
+.Hero2__Description{
+    width: 561px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.Apprentissage{
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Apprentissage__Titre{
+    font-size: 36px;
+    font-weight: 700;
+}
+.Apprentissage__Description{
+    text-align: center;
+    width: 622px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.Apprentissage__SectionCard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
 
-
+}
+.Apprentissage__Card{
+    background-color: #FAF3E9;
+    width: 325px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 9px;
+}
+.Apprentissage__SectionLien{
+    position: relative;
+    right: 430px;
+}
+.Apprentissage__Lien{
+    color: red;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
 .Footer{
     display: flex;
     flex-direction: column;
